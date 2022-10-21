@@ -1,0 +1,347 @@
+.container1{
+    margin: 0;
+    padding: 0;
+    height: 420px;
+    width: 100%;
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png) top;
+}
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 55px;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.flexbox-item{
+    order: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.flexbox-item-getapp{
+    min-height: 55px;
+    min-width: 50px;
+    color: #FFFF;
+    margin-left: 200px;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 520;
+    font-size: medium;
+}
+.flexbox-item-investor{
+    min-height: 55px;
+    min-width: 33px;
+    color: #FFFF;
+    margin-left: 200px;
+    padding-top: 20px;
+    margin-left: 500px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: large;
+}
+.flexbox-item-relations{
+    min-height: 55px;
+    min-width: 33px;
+    color: #FFFF;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: large;
+}
+.flexbox-item-addrestaurant{
+    min-height: 55px;
+    min-width: 33px;
+    color: #FFFF;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: large;
+}
+.flexbox-item-login{
+    min-height: 55px;
+    min-width: 33px;
+    color: #FFFF;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: large;
+}
+.flexbox-item-signup{
+    min-height: 55px;
+    min-width: 33px;
+    color: #FFFF;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: large;
+}
+.content{
+    height: 100px;
+}
+.zomatologo img{
+    object-fit: contain;
+    font-size: small;
+}
+img{
+    border: 0;
+    max-height: 20%;
+    max-width: 20%;
+    margin-left: 600px;
+    padding-top: 40px;
+    position: absolute;
+}
+.heading1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.locationsearch{
+    align-items: center;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.searchNbutton{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    /* padding-left: 300px; */
+    justify-content: center;
+    
+}
+.searchNbutton #search{
+    width: 500px;
+    font-family: " Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #8c8c8c;
+    padding-left: 10px;
+    align-content: center;
+}
+.searchNbutton #kochi{
+    width: 240px;
+    background-color: #fff;
+    color: grey;
+    border: 0px;
+    text-align: center;
+    font-family: " Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 8px;
+    
+}
+.container2{
+    margin: 0;
+    padding: 0;
+    height: 420px;
+    width: 100%;
+}
+.orderdining{
+    display: flex;
+    height: 380px;
+    width: 1519.2px;
+}
+
+.left{
+    height: 380px;
+    width: 759.6px;
+    background-image: url(orderpic.avif);
+    background-size:500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.text1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-top: 300px;
+}
+.right{
+    height: 380px;
+    width: 759.6px;
+    background-image: url(diningpic.avif);
+    background-size:500px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}
+.container3{
+    border: 0;
+    margin-top: 40px;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+}
+.collections{
+    border: 0;
+    display: flex;
+    height: 380px;
+    width: 1519.2px;
+}
+.mainhead{
+    margin-left: 100px;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+.subhead{
+    margin-left: 60px;
+    font-size: larger;
+}
+.container4{
+    box-sizing: inherit;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.left1{
+    height: 380px;
+    width: 800px;
+    background-image: url(veggie.jpeg);
+    background-size:500px;
+    margin-top: -200px;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.left2{
+    height: 380px;
+    width: 800px;
+    background-image: url(restaurant.jpeg);
+    background-size:500px;
+    margin-top: -200px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.right1{
+    height: 380px;
+    width: 800px;
+    background-image: url(cafe.jpeg);
+    background-size:500px;
+    margin-top: -200px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.right2{
+    height: 380px;
+    width: 800px;
+    background-image: url(seafood.jpeg);
+    background-size:500px;
+    margin-top: -200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.text2{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-top: 300px;
+}
+.container5{
+    box-sizing: inherit;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+.part1{
+    height: 380px;
+    width: 400px;
+    background-image: url(mobileapp.avif);
+    background-size:350px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.part2{
+    height: 380px;
+    width: 800px;
+}
+.get{
+    margin-left: 100px;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+.appdescription{
+    margin-left: 60px;
+    font-size: larger;
+}
+.download{
+    box-sizing: inherit;
+    font-size: large;
+    font-weight: lighter;
+    color: #8c8c8c;
+    margin-left: 100px;
+}
+.playstore{
+    height: 30px;
+    width: 100px;
+    background-image: url(playstore.webp);
+    background-size:100px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.appstore{
+    height: 30px;
+    width: 100px;
+    background-image: url(appstore.webp);
+    background-size:100px;
+    margin-top: -80px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.footer{
+    height: 393.8px;
+    width: 1519.2px; ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.concept{
+    display: flex;
+    height:323px;
+    width: 929.2px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #737373;
+}
+.contentGroup{
+    display: flex;
+    flex-direction: row;
+    /* justify-items: space-between; */
+    align-content: space-between;
+    margin-top: 15px;
+}
+#question{
+    font-size: 16px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    /* padding: 10px; */
+}
+.englishNet{
+    width: 929.2px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
